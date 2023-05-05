@@ -10,20 +10,20 @@ We'll likely create multiple variations of what is essentially the same game, so
 
 **Navigation**
 
-* [Games List](#games-list) – see the full list of WIP/completed games & future ideas
+* [Games List](#games-list) – see the full list of WIP/completed games & future ideas
 * [Frameworks, tools, technologies selected](#frameworks-tools-technologies-selected) – a quick overview of selections
-* [Developing Locally](#developing-locally) – guide to getting the site up and running locally
-* [Deploying to GitHub Pages](#deploying-to-githubpages) – guide to deploying games to GitHub pages
-* [Contributing](#contributing) – guide to submitting your own
-* [TODO:s](#todos) – repository wide TODO list, specific game TODO:s will be kept to their own markdown files
+* [Developing Locally](#developing-locally) – guide to getting the site up and running locally
+* [Deploying to GitHub Pages](#deploying-to-githubpages) – guide to deploying games to GitHub pages
+* [Contributing](#contributing) – guide to submitting your own
+* [TODO:s](#todos) – repository wide TODO list, specific game TODO:s will be kept to their own markdown files
 
 ## Games List
 
 ### To Build/Building
 
 * [ ] Guess the Word
-  * [ ] [PirateWords](./PirateWords.md) – Can you guess the captain's favorite word before you walk the plank?
-  * [ ] DogWords – Can you guess the recall word before the dog runs off? Don't ask me why your friend choose to use that word when training the dog. They're _your_ friend!
+  * [ ] [PirateWords](./PirateWords.md) – Can you guess the captain's favorite word before you walk the plank?
+  * [ ] DogWords – Can you guess the recall word before the dog runs off? Don't ask me why your friend choose to use that word when training the dog. They're _your_ friend!
 
 **Future Ideation**
 
@@ -34,12 +34,14 @@ We'll likely create multiple variations of what is essentially the same game, so
 
 ## Frameworks, tools, technologies selected
 
-* [Next.js]()
-* [React]()
-* [Jest]() + [React Testing Library]()
-* [Styled Components]()
+* [Next.js](https://nextjs.org/)
+* [React](https://react.dev/)
+* [Jest](https://jestjs.io/) + [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 * [GitHubPages]()
-* [Typescript?]() – TBD
+
+**Future Targets**
+
+* [Typescript?]() – TBD
 
 ## Developing Locally
 
@@ -57,6 +59,9 @@ TODO: create a Contributing.md guide.
 ## TODO:s
 
 * [ ] Init/Hello World
+  * [x] Create a bare bones unstyled home page and pirate words page
+  * [x] Add a test for pirate words page to make sure my testing frameworks/tools are up and running properly
+  * [ ] Then figure out what's next
 * [ ] Choose license (and contributing guide or no)
 * [ ] Decide to start in TypeScript or stay with Vanilla JavaScript for now
 * [ ] Create first two games
